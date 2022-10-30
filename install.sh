@@ -3,7 +3,6 @@ sudo apt install wget meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev li
 git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
 cd Top-5-Bootloader-Themes
 sudo ./install.sh
-sudo apt autoremove
 printf "\e[1;32mYou can now reboot! Thanks talha.\e[0m\n"
 
 
