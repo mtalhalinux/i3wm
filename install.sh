@@ -1,9 +1,5 @@
-su
-apt update
-apt install sudo nano
-nano /etc/sudoers
-exit
-sudo apt install wget meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev libxcb-shape0 libxcb-shape0-dev i3status  git htop hardinfo neofetch xorg vlc pulseaudio volumeicon-alsa  pcmanfm terminator nitrogen compton picom  nm-applet lxappearance alsa-utils pavucontrol dmenu unzip  geeqie arandr ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi ttf-dejavu arc-theme libpam0g-dev libxcb-xkb-dev xarchiver
+sudo apt update
+sudo apt install wget meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev libxcb-shape0 libxcb-shape0-dev i3status htop hardinfo neofetch xorg vlc pulseaudio volumeicon-alsa  pcmanfm terminator nitrogen compton picom  nm-applet lxappearance alsa-utils pavucontrol dmenu unzip  geeqie arandr ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi ttf-dejavu arc-theme libpam0g-dev libxcb-xkb-dev xarchiver
 git clone https://github.com/Airblader/i3 i3-gaps
 cd i3-gaps
 mkdir -p build && cd build
