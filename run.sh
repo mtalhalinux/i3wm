@@ -18,6 +18,21 @@ make
 make install installsystemd
 systemctl enable ly.service
 cd ../
+if [[ ! -d /usr/share/xsessions ]]; then
+    sudo mkdir /usr/share/xsessions
+fi
+
+cat > ./temp << "EOF"
+[Desktop Entry]
+Encoding=UTF-8
+Name=i3
+Comment=Dynamic window manager
+Exec=i3
+Icon=i3
+Type=XSession
+EOF
+sudo cp ./temp /usr/share/xsessions/i3.desktop;rm ./temp
+
 
 
 
