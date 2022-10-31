@@ -8,6 +8,9 @@ make
 make run
 make install installsystemd
 systemctl enable ly.service
+cd ../
+cd ../
+mkdir wall
 
 
 
