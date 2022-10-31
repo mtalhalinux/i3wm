@@ -1,6 +1,6 @@
-sudo apt install i3-wm wget i3status htop hardinfo neofetch xorg vlc pulseaudio volumeicon-alsa pcmanfm terminator nitrogen compton picom lxappearance alsa-utils pavucontrol unzip geeqie arandr arc-theme 
-          
-
+sudo apt install i3-wm i3status xorg vlc pulseaudio volumeicon-alsa pcmanfm terminator nitrogen alsa-utils pavucontrol  
+sudo apt install wget htop hardinfo neofetch compton picom lxappearance      
+sudo apt install unzip geeqie arandr arc-theme
 
 
 
