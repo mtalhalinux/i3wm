@@ -1,7 +1,7 @@
 sudo apt install i3-wm i3status xorg vlc pulseaudio volumeicon-alsa pcmanfm terminator feh alsa-utils pavucontrol dmenu
 sudo apt install wget htop hardinfo neofetch compton picom lxappearance      
 sudo apt install unzip geeqie arandr arc-theme network-manager-gnome
-sudo apt install build-essential libpam0g-dev libxcb-xkb-dev
+sudo apt install libpam0g-dev libxcb-xkb-dev
 sudo apt install ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
 sudo apt install build-essential dkms linux-headers-$(uname -r)
 git clone --recurse-submodules https://github.com/fairyglade/ly
