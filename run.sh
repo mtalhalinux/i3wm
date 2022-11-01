@@ -11,7 +11,7 @@ echo -ne "
 # important packages
 sudo apt install xorg pulseaudio alsa-utils pavucontrol compton picom network-manager-gnome
 # basic used packages
-sudo apt install vlc arandr geeqie pcmanfm terminator nitrogen dmenu xarchiver GParted firefox
+sudo apt install vlc arandr geeqie pcmanfm terminator nitrogen dmenu xarchiver gparted firefox-esr
 # Non essential but useful
 sudo apt install arc-theme wget htop hardinfo neofetch lxappearance i3status  volumeicon-alsa Galculator
 # Recommended for compiling
