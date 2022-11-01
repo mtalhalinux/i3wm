@@ -9,6 +9,10 @@ echo -ne "
                                                                                           
 "
 # important packages
+echo -ne "
+                       ❖❀～ 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐏𝐚𝐜𝐤𝐚𝐠𝐞𝐬 ～❀❖
+  "                     
+
 sudo apt install xorg pulseaudio alsa-utils pavucontrol compton picom network-manager-gnome
 # basic used packages
 sudo apt install vlc arandr geeqie pcmanfm terminator nitrogen dmenu xarchiver gparted firefox-esr
