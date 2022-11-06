@@ -34,7 +34,7 @@ font pango:DejaVu Sans Mono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+q kill
@@ -49,7 +49,7 @@ bindsym $mod+d exec dmenu_run
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
 ################################################################################################
 
-exec --no-startup-id volumeicon
+
 bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
@@ -59,12 +59,13 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 
 bindsym $mod+F1 exec firefox
 bindsym $mod+F2 exec pcmanfm
+bindsym $mod+F3 exec htop
 
 # Open applications on specific workspaces
-# assign [class="Thunderbird"] $ws1
-# assign [class="Pale moon"] $ws2
-# assign [class="Pcmanfm"] $ws3
-# assign [class="Skype"] $ws5
+# assign [class="add"] $ws1
+# assign [class="add"] $ws2
+# assign [class="add"] $ws3
+# assign [class="add"] $ws5
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
@@ -72,12 +73,14 @@ for_window [title="File Transfer*"] floating enable
 for_window [class="Galculator"] floating enable border pixel 1
 for_window [class="GParted"] floating enable border normal
 for_window [class="Lxappearance"] floating enable sticky enable border normal
+for_window [class="xarchiver"] floating enable sticky enable border normal
 
 # Autostart applications
 
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b picom -b
-
-exec --no-startup-id network-manager-gnome
+exec_always --no-startup-id volumeicon
+exec_always --no-startup-id nm-applet
+exec_always --no-startup-id picom
 
 
 
