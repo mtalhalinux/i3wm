@@ -13,11 +13,11 @@ echo -ne "
                        ❖❀～ 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐏𝐚𝐜𝐤𝐚𝐠𝐞𝐬 ～❀❖
   "                     
 
-sudo apt install xorg pulseaudio alsa-utils pavucontrol compton picom network-manager-gnome
+sudo apt install xorg pulseaudio alsa-utils pavucontrol compton picom nm-applet
 # basic used packages
 sudo apt install vlc arandr geeqie pcmanfm terminator nitrogen dmenu xarchiver gparted firefox-esr
 # Non essential but useful
-sudo apt install arc-theme wget htop hardinfo neofetch lxappearance i3status  volumeicon-alsa Galculator
+sudo apt install arc-theme wget htop hardinfo neofetch lxappearance i3status  volumeicon-alsa galculator
 # Recommended for compiling
 sudo apt install build-essential dkms linux-headers-$(uname -r)
 # Needed for i3 gaps installation
@@ -53,6 +53,17 @@ Icon=i3
 Type=XSession
 EOF
 sudo cp ./temp /usr/share/xsessions/i3.desktop;rm ./temp
+# change confile file
+cd ~/.config/i3
+rm -r config
+cd ~/i3wm
+mv config ~/i3
+# now for picom
+cd ~/.config
+mkdir picom
+cd ~/i3wm
+cd  picom.conf ~/.config/picom
+
 
 printf "\e[1;32mYou can now reboot! Thanks you.\e[0m\n"
 
