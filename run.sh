@@ -18,7 +18,7 @@ sudo apt install xorg pulseaudio alsa-utils pavucontrol compton picom nm-applet 
 echo -ne "
                       🌸ꗥ～ꗥ🌸 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐛𝐚𝐬𝐢𝐜 𝐩𝐚𝐜𝐤𝐚𝐠𝐞𝐬 🌸ꗥ～ꗥ🌸
 "                      
-sudo apt install vlc arandr geeqie pcmanfm nitrogen dmenu xarchiver gparted firefox-esr
+sudo apt install vlc arandr geeqie pcmanfm feh dmenu xarchiver gparted firefox-esr
 # Non essential but useful
 echo -ne "
                        🌸ꗥ～ꗥ🌸 𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐬𝐨𝐦𝐞𝐭𝐢𝐦𝐞 𝐧𝐞𝐞𝐝𝐞𝐝 𝐩𝐚𝐜𝐤𝐚𝐠𝐞𝐬 🌸ꗥ～ꗥ🌸
@@ -104,6 +104,7 @@ cd ~/.config
 mkdir picom
 cd ~/i3wm
 cd  picom.conf ~/.config/picom
+
 
 
 printf "\e[1;32mYou can now reboot! Thanks you.\e[0m\n"
