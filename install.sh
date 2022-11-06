@@ -13,29 +13,29 @@ echo -ne "
                        ❖❀～ 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐏𝐚𝐜𝐤𝐚𝐠𝐞𝐬 ～❀❖
   "                     
 
-sudo apt install xorg pulseaudio alsa-utils pavucontrol compton picom nm-applet kitty
+sudo apt install -y xorg pulseaudio alsa-utils pavucontrol compton picom nm-applet kitty
 # basic used packages
 echo -ne "
                       🌸ꗥ～ꗥ🌸 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐛𝐚𝐬𝐢𝐜 𝐩𝐚𝐜𝐤𝐚𝐠𝐞𝐬 🌸ꗥ～ꗥ🌸
 "                      
-sudo apt install vlc arandr geeqie pcmanfm feh dmenu xarchiver gparted firefox-esr
+sudo apt install -y vlc arandr geeqie pcmanfm feh dmenu xarchiver gparted firefox-esr
 # Non essential but useful
 echo -ne "
                        🌸ꗥ～ꗥ🌸 𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐬𝐨𝐦𝐞𝐭𝐢𝐦𝐞 𝐧𝐞𝐞𝐝𝐞𝐝 𝐩𝐚𝐜𝐤𝐚𝐠𝐞𝐬 🌸ꗥ～ꗥ🌸
 "
-sudo apt install arc-theme wget htop hardinfo neofetch lxappearance i3status  volumeicon-alsa galculator
+sudo apt install -y arc-theme wget htop hardinfo neofetch lxappearance i3status  volumeicon-alsa galculator
 echo -ne "
                               ❀💋 ᖇEᑕOᗰᗰEᑎᗪEᗪ ᖴOᖇ ᑕOᗰᑭIᒪIᑎG 💋❀
 "
 # Recommended for compiling
-sudo apt install build-essential dkms linux-headers-$(uname -r)
+sudo apt install -y build-essential dkms linux-headers-$(uname -r)
 
 echo -ne "
                                     𝙉𝙚𝙚𝙙𝙚𝙙 𝙛𝙤𝙧 𝙞3 𝙜𝙖𝙥𝙨 𝙞𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣
  "                                  
 # Needed for i3 gaps installation
-sudo apt install meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev libxcb-shape0 libxcb-shape0-dev
-sudo apt install libpam0g-dev libxcb-xkb-dev
+sudo apt install -y meson dh-autoreconf libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev libxcb-shape0 libxcb-shape0-dev
+sudo apt install -y libpam0g-dev libxcb-xkb-dev
 echo -ne "
                                  ██▓▒­░⡷⠂𝙸𝚗𝚜𝚝𝚊𝚕𝚕𝚒𝚗𝚐  𝚒𝟹-𝚐𝚊𝚙𝚜⠐⢾░▒▓██
    "                               
