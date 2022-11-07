@@ -13,7 +13,7 @@ echo -ne "
                        ❖❀～ 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐏𝐚𝐜𝐤𝐚𝐠𝐞𝐬 ～❀❖
   "                     
 
-sudo apt install -y xorg pulseaudio alsa-utils pavucontrol compton picom nm-applet kitty
+sudo apt install -y xorg pulseaudio alsa-utils pavucontrol compton picom kitty network-manager-gnome
 # basic used packages
 echo -ne "
                       🌸ꗥ～ꗥ🌸 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐛𝐚𝐬𝐢𝐜 𝐩𝐚𝐜𝐤𝐚𝐠𝐞𝐬 🌸ꗥ～ꗥ🌸
