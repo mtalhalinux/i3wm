@@ -79,7 +79,7 @@ for_window [class="xarchiver"] floating enable sticky enable border normal
 
 exec --no-startup-id feh --bg-fill ~/i3wm/wallpaperflare.com_wallpaper.jpg compton -b picom -b
 exec_always --no-startup-id volumeicon
-exec_always --no-startup-id nm-applet
+exec_always --no-startup-id network-manager-gnome
 exec_always --no-startup-id picom
 
 
