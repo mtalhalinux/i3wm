@@ -91,6 +91,7 @@ $$ | \_/ $$ |   $$ |\$$$$$$$ |$$ |$$ |  $$ |\$$$$$$$ |$$ |$$ |$$ |  $$ |\$$$$$$ 
 echo -ne "
                           ᑕᕼᗩᑎGIᑎG OᖇIGIᑎᗩᒪ I3 ᑕOᑎᖴIG ᖴIᒪE
 "
+su
 # change confile file
 cd ~/.config/i3
 rm -r config
