@@ -88,23 +88,7 @@ $$ | \_/ $$ |   $$ |\$$$$$$$ |$$ |$$ |  $$ |\$$$$$$$ |$$ |$$ |$$ |  $$ |\$$$$$$ 
                                                                                             
  "                                                                                           
                                                                                             
-echo -ne "
-                          ᑕᕼᗩᑎGIᑎG OᖇIGIᑎᗩᒪ I3 ᑕOᑎᖴIG ᖴIᒪE
-"
-su
-# change confile file
-cd ~/.config/i3
-rm -r config
-cd ~/i3wm
-mv config ~/.config/i3
-echo -ne "
-                      ꧁༺ 𝓢𝓮𝓽𝓽𝓲𝓷𝓰-𝓾𝓹 𝓟𝓲𝓬𝓸𝓶 ༻꧂
- "                     
-# now for picom
-cd ~/.config
-mkdir picom
-cd ~/i3wm
-cp  picom.conf ~/.config/picom
+
 
 
 
