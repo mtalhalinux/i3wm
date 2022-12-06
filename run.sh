@@ -13,17 +13,17 @@ echo -ne "
                        ❖❀～ 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐏𝐚𝐜𝐤𝐚𝐠𝐞𝐬 ～❀❖
   "                     
 
-sudo apt install -y xorg pulseaudio alsa-utils pavucontrol compton picom kitty network-manager-gnome
+sudo apt install -y       
 # basic used packages
 echo -ne "
                       🌸ꗥ～ꗥ🌸 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐛𝐚𝐬𝐢𝐜 𝐩𝐚𝐜𝐤𝐚𝐠𝐞𝐬 🌸ꗥ～ꗥ🌸
 "                      
-sudo apt install -y vlc arandr geeqie pcmanfm feh dmenu xarchiver gparted firefox-esr
+sudo apt install -y    pcmanfm feh dmenu xarchiver gparted firefox-esr
 # Non essential but useful
 echo -ne "
                        🌸ꗥ～ꗥ🌸 𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐬𝐨𝐦𝐞𝐭𝐢𝐦𝐞 𝐧𝐞𝐞𝐝𝐞𝐝 𝐩𝐚𝐜𝐤𝐚𝐠𝐞𝐬 🌸ꗥ～ꗥ🌸
 "
-sudo apt install -y arc-theme wget htop hardinfo neofetch lxappearance i3status  volumeicon-alsa galculator
+sudo apt install -y arc-theme      i3status   
 echo -ne "
                               ❀💋 ᖇEᑕOᗰᗰEᑎᗪEᗪ ᖴOᖇ ᑕOᗰᑭIᒪIᑎG 💋❀
 "
